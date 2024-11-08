@@ -1,0 +1,14 @@
+/* home container */
+.file_list_container::-webkit-scrollbar {
+    width: .5rem;
+}
+
+.file_list_container::-webkit-scrollbar-track {
+    background: #BBBBBB;
+    border-radius: 10px;
+}
+
+.file_list_container::-webkit-scrollbar-thumb {
+    background-color: #757575;
+    border-radius: 10px;
+}

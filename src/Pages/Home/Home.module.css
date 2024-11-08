@@ -1,0 +1,29 @@
+/* home container */
+.home_container::-webkit-scrollbar {
+    height: 1rem;
+}
+
+.home_container::-webkit-scrollbar-track {
+    background: #BBBBBB;
+    border-radius: 10px;
+}
+
+.home_container::-webkit-scrollbar-thumb {
+    background-color: #147CC3;
+    border-radius: 10px;
+}
+
+/* card container */
+.card_container::-webkit-scrollbar {
+    width: .5rem;
+}
+
+.card_container::-webkit-scrollbar-track {
+    background: #BBBBBB;
+    border-radius: 10px;
+}
+
+.card_container::-webkit-scrollbar-thumb {
+    background-color: #147CC3;
+    border-radius: 10px;
+}
