@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 
 const fetchAttachments = async () => {
-    const response = await fetch('http://localhost:5000/api/attachments');
+    const response = await fetch('https://seo-page-server.vercel.app/api/attachments');
     if (!response.ok) {
         throw new Error('Failed to fetch attachments');
     }

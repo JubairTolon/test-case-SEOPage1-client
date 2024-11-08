@@ -41,7 +41,7 @@ export default function Card({
         formData.append('_id', _id);
 
         try {
-            const response = await fetch('http://localhost:5000/api/upload', {
+            const response = await fetch('https://seo-page-server.vercel.app/api/upload', {
                 method: 'POST',
                 body: formData,
             });

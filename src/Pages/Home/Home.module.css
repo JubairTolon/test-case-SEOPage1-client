@@ -1,6 +1,6 @@
 /* home container */
 .home_container::-webkit-scrollbar {
-    height: 1rem;
+    height: .75rem;
 }
 
 .home_container::-webkit-scrollbar-track {
